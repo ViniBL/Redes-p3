@@ -3,7 +3,7 @@ from iputils import *
 
 IPV4_HEADER_DEF_SIZE = 20
 
-
+#teste
 def disable_nbits(orig_data, nbits):
     bits_str = bin(orig_data)[2:]
     nw_lst = []
